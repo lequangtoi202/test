@@ -1,0 +1,54 @@
+/* Màu thường dùng */
+:root {
+    --text-color: #333;
+    --main-color: #003d71;
+    --nav-color: #023154;
+}
+
+
+/* Nhúng tất cả các kiểu chữ */
+* {
+    box-sizing: inherit;
+}
+
+
+/* Phần thiết kế chung cho cả trang web */
+html {
+    /* 1 rem = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+div.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    content: "";
+}
+
+div.column {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Nút bấm */
+.btn {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid rgb(250, 191, 42);
+}
+
+.btn:hover {
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+}

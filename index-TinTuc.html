@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limerence Tourist</title>
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="CSS/basic.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/index-DLTN-DLNN.css">
+    <link rel="stylesheet" href="CSS/index-TinTuc.css">
+    <link rel="stylesheet" href="CSS/tablet.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
+    <script src="JavaScript/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <!-- Xử lý trượt trở về trang đầu -->
+    <div>
+        <a href="javascript:;" id="GoToTop">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- Phần đầu của trang web -->
+    <header>
+        <div class="nav-Top">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <ul class="nav-top__social">
+                            <li>
+                                <p>SĐT : 1900 1021</p>
+                            </li>
+                            <li>
+                                <a href="#">Limerencetourist@gmail.com</a>
+                            </li>
+                        </ul>
+                        <ul class="nav-top__social">
+                            <li>
+                                <a href="#">Thông tin cổ phần</a>
+                            </li>
+                            <li>
+                                <a href="">Tuyển dụng</a>
+                            </li>
+                        </ul>
+                        <ul class="nav-top__social nav-top__social-mob">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-Bar">
+            <div class="container">
+                <div class="row row-nav">
+                    <div class="col-10">
+                        <img src="imgs/logoDuLich.png" alt="Ảnh logo của web">
+                    </div>
+                    <div class="col-90">
+                        <ul class="nav-Bar-items">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fas fa-home"></i>
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="travel-main">
+                                <a href="#" >
+                                    <i class="fas fa-umbrella-beach"></i>
+                                    Du lịch 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="travel">
+                                    <div class="travel-items">
+                                        <ul>
+                                            <li>
+                                                <a href="index-DuLichTrongNuoc.html">Du lịch trong nước</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.DuLichNuocNgoai.html">Du lịch nước ngoài</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hotel-main">
+                                <a href="#">
+                                    <i class="fas fa-hotel"></i>
+                                    Khách sạn
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="hotel">
+                                    <div class="hotel-items">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Khách sạn trong nước</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Khách sạn ngoài nước</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="index-LienHe.html">
+                                    <i class="fas fa-address-book"></i>
+                                    Liên hệ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index-TinTuc.html">
+                                    <i class="fas fa-newspaper"></i>
+                                    Tin tức
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <label for="check-menu" class="nar-bar-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+
+                    <input type="checkbox" hidden name="" id="check-menu" class="check__input">
+
+                    <label for="check-menu" class="nav-overlay">
+                    </label>
+
+                    <div class="col-90-tablet">
+                        <label for="check-menu" class="btnDelete-icon">
+                            <i class="fas fa-times"></i>
+                        </label>
+                        <ul class="nav-Bar-items-tablet">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fas fa-home"></i>
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="travel-main-tablet">
+                                <a href="#" >
+                                    <i class="fas fa-umbrella-beach"></i>
+                                    Du lịch 
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="travel-tablet">
+                                    <div class="travel-items-tablet">
+                                        <ul>
+                                            <li>
+                                                <a href="index-DuLichTrongNuoc.html"> - Du lịch trong nước</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.DuLichNuocNgoai.html"> - Du lịch nước ngoài</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hotel-main-tablet">
+                                <a href="#">
+                                    <i class="fas fa-hotel"></i>
+                                    Khách sạn
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <div class="hotel-tablet">
+                                    <div class="hotel-items-tablet">
+                                        <ul>
+                                            <li>
+                                                <a href="#"> - Khách sạn trong nước</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> - Khách sạn ngoài nước</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="index-LienHe.html">
+                                    <i class="fas fa-address-book"></i>
+                                    Liên hệ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index-TinTuc.html">
+                                    <i class="fas fa-newspaper"></i>
+                                    Tin tức
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="imgTop">
+        <img src="imgs/ảnh-nền/tin-tức.jpg" alt="ảnh nền tin tức">
+    </div>
+
+    <section>
+        <ul class="ads">
+            <li>
+                <a href="#" class="facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="messenger">
+                    <i class="fab fa-facebook-messenger"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="instagram">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="tiktok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <div class="news-content">
+                <div class="col30">
+                    <div class="imgs">
+                        <img src="imgs/tin-Tức/ảnh-tin-tức-1.jpg" alt="ảnh tin tức">
+                    </div>
+                </div>
+                <div class="col70">
+                    <div class="news-items">
+                        <a href="#"><h3>H&T tourist tổ chức talk show "Thế giới thật gần"</h3></a>
+                        <p>Ngày 25.9.2021, BenThanh Tourist tổ chức talk show du lịch, chủ đề “Thế giới thật gần”. Chương trình có sự hiện diện của khách mời là đại diện của Văn phòng Xúc tiến Du lịch, Tổng cục Du lịch các quốc gia Nhật Bản, Hàn Quốc, Thái Lan và Singapore, mang đến một diễn đàn ý nghĩa, đưa thế giới xích lại gần nhau.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-content">
+                <div class="col30">
+                    <div class="imgs">
+                        <img src="imgs/tin-Tức/tin-tức-2.jpg" alt="ảnh tin tức">
+                    </div>
+                </div>
+                <div class="col70">
+                    <div class="news-items">
+                        <a href="#"><h3>Bắc Giang; Từng bước xây dựng thương hiệu du lịch văn hóa - tâm linh</h3></a>
+                        <p>Du lịch văn hóa - tâm linh là một trong những loại hình đã và đang được tỉnh Bắc Giang quan tâm khai thác phát triển. Qua đó quảng bá, thu hút khách tham quan, góp phần khơi dậy niềm tự hào về truyền thống văn hóa, lịch sử của dân tộc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-content">
+                <div class="col30">
+                    <div class="imgs">
+                        <img src="imgs/tin-Tức/tin-tức-3.jpg" alt="ảnh tin tức">
+                    </div>
+                </div>
+                <div class="col70">
+                    <div class="news-items">
+                        <a href="#"><h3>6 lý do Quảng Ninh là điểm đến mong đợi sau những ngày cách xa</h3></a>
+                        <p>Khác với khung cảnh sôi động thường thấy của điểm du lịch số một miền Bắc, Quảng Ninh năm nay vắng lặng vì Covid-19. Nhưng miền di sản vẫn khiến các du khách nhớ nhung khi tiết trời chuyển Thu. Nỗi nhớ ấy được gọi tên bằng những trải nghiệm mà dẫu có đi muôn nơi, người ta vẫn mong được trở lại với vùng đất của núi biếc, biển xanh và những vịnh biển, đầm phá đẹp như tranh họa đồ này.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row row-footer">
+                <div class="col-40">
+                    <img src="imgs/logoDuLich.png" alt="ảnh logo">
+                </div>
+                <div class="col-20">
+                    <h3>Điểm đến</h3>
+                    <ul class="footer-items">
+                        <li>
+                            <a href="#">Du lịch trong nước</a>
+                        </li>
+                        <li>
+                            <a href="#">Du lịch nước ngoài</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <h3>HOTLINE</h3>
+                    <ul class="footer-items">
+                        <li>
+                            <p>Khách trong nước: 1900 2810</p>
+                        </li>
+                        <li>
+                            <p>Khách nước ngoài: 1900 1008</p>
+                        </li>
+                        <li>
+                            <p>Vé máy bay: 0933.033.033</p> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <h3>Liên hệ</h3>
+                    <ul class="footer-items">
+                        <li>
+                            <p>- CÔNG TY TNHH 1 THÀNH VIÊN LIMERENCE TOURIST -</p>
+                        </li>
+                        <li>
+                            <p>Trung tâm chăm sóc khách hàng LIMERENCE</p>
+                        </li>
+                        <li>
+                            <p>Trụ sở chính: số 1, đường Trần Phú, thành phố Hồ Chí Minh</p> 
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="googlemap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925050868642!2d106.6749189146841!3d10.81704766140073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zxJDhuqFpIGjhu41jIE3hu58gVFAuSENN!5e0!3m2!1svi!2s!4v1633358159523!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="JavaScript/XuLy-jquery.js"></script>
+    <script src="JavaScript/index.js"></script>
+   
+</body>
+</html>
