@@ -1,0 +1,1155 @@
+@media (min-width: 359px) and (max-width: 500px) {
+    .nar-bar-btn {
+        padding: 20px !important;
+        display: block;
+        margin: auto 0 auto 90% !important;
+    }
+
+    .row {
+        margin: 0 !important;
+    }
+    /* Xử lý phần trượt */
+    a#GoToTop {
+        padding: 15px 10px;
+    }
+    
+    a#GoToTop i {
+        font-size: 1.6rem;
+    }
+
+    /* Phần xử lý nav top */
+    div.container {
+        margin-left: 10px;
+    }
+
+    .container1 {
+        margin: 0 20px !important;
+    }
+
+    ul.nav-top__social,
+    div.column {
+        display: block;
+    }
+
+    ul.nav-top__social-mob {
+        display: flex;
+    }
+
+    ul.nav-top__social > li p,
+    ul.nav-top__social > li a {
+        display: block;
+        font-size: 1.4rem;
+        padding: 0;
+    }
+
+    /* Kết thúc nav top */
+
+    /* Phần mạng xã hội */
+    .ads > li > a > i {
+        font-size: 1.8rem;
+        padding: 10px 10px;
+    }
+    /* Kết thúc phần mạng xã hội */
+
+    .nar-bar-btn {
+        display: block;
+        padding: 10px;
+    }
+
+    div.col-10 > img {
+        display: none;
+    }
+
+    .nav-Bar-items {
+        display: none;
+    }
+
+   
+
+    .nar-bar-btn {
+        padding: 20px;
+        display: block;
+        margin: auto 0 auto 95%;
+    }
+
+    div.col-10  {
+        margin: 0;
+    }
+
+    .col-90 {
+        display: none;
+    }
+
+    .nav-overlay {
+        z-index: 99999;
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .col-90-tablet {
+        display: block;
+        z-index: 999999;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 270px;
+        max-width: 100%;
+        background-color: rgb(160, 156, 156);
+        transform: translateX(100%);
+        transition: transform linear 0.2s;
+    }
+
+    .nav-Bar-items-tablet {
+        padding-top: 50px;
+    }
+
+    .nav-Bar-items-tablet > li {
+        display: block;
+        padding: 10px 0 10px 30px ;
+    }
+
+    .nav-Bar-items-tablet > li > a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--nav-color);
+    }
+
+    /* Xử lý phần menu con trong menu */
+    .travel-tablet,
+    .hotel-tablet {
+        display: none;
+    }
+
+    .hotel-tablet > .hotel-items-tablet,
+    .travel-items-tablet {
+        margin-left: 30px;
+    }
+
+    .hotel-items-tablet > ul > li,
+    .travel-items-tablet > ul > li {
+        margin-top: 10px;
+        padding: 5px 0;
+    }
+
+    .travel-items-tablet > ul > li > a,
+    .hotel-items-tablet > ul > li > a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--nav-color);
+    }
+
+    .travel-items-tablet > ul > li > a:hover,
+    .hotel-items-tablet > ul > li > a:hover {
+        color: white;
+    }
+
+    .nav-Bar-items-tablet > li a:hover {
+        color: white;
+    }
+
+    li.travel-main-tablet:hover div.travel-tablet,
+    li.hotel-main-tablet:hover div.hotel-tablet {
+        display: block;
+    }
+
+    .footer-product > div.price {
+        font-size: 1.4rem;
+        padding: 12px;
+    }
+
+    .info-SanPham > a > p {
+        margin: 20px 0 10px 0;
+        color: var(--text-color);
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-weight: 600;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    /* Xử lý icon */
+    .btnDelete-icon {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .btnDelete-icon i {
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    /* Xử lý ẩn hiện */
+    .check__input:checked ~ .nav-overlay {
+        display: block;
+    }
+
+    .check__input:checked ~ .col-90-tablet {
+        transform: translateX(0%);
+    }
+
+    .Tour-items {
+        display: none;
+    }
+
+    /* Xử lý phần sản phẩm */
+
+    .row-SanPhamHot > div.col-30 {
+        width: 100%;
+        margin: 20px 20px;
+        padding: 0;
+    }
+
+    .location i,
+    .location span,
+    .startDay i,
+    .startDay span {
+        font-size: 1.6rem;
+        padding: 5px 0;
+        font-weight: 400;
+    }
+
+    .footer-product {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        background-color: rgb(187, 186, 186);
+    }
+
+    /*Xử lí Phần cảm ơn */
+    .title-tablet span {
+        font-size: 1.6rem;
+        padding-top: 10px;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+
+    .title-tablet h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin: 10px 0;
+    }
+
+    .introduce-company {
+        margin: 40px 0;
+    }
+
+    .subject {
+        display: block;
+        padding: 20px 0;
+    }
+
+    .stats-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 40px 0;
+    }
+
+    .stats {
+        text-align: center;
+    }
+
+    .stats i{
+        font-size: 3rem;
+    }
+
+    .stats span {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .stats h3 {
+        font-size: 2rem;
+    }
+
+    .fa-calendar {
+        color: green;
+    }
+
+    .fa-user {
+        color: red;
+    }
+
+    .fa-route {
+        color: blue;
+    }
+
+
+
+
+/* Xử lý phần footer */
+    #footer {
+        padding-bottom: 300px !important;
+        height: 100%;
+    } 
+
+    #footer > div.container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row-footer {
+        display: block;
+        margin: 0 20px !important;
+    }
+
+    .col-40 img {
+        display: none;
+    }
+
+    .col-20 {
+        width: 100%;
+    }
+
+    .col-20 h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.6rem;
+    }
+
+    .footer-items > li > a,
+    .footer-items > li > p {
+        font-size: 1.4rem;
+        padding: 2px 0;
+    }
+
+    .googlemap iframe {
+        height: 180px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .googlemap {
+        position: absolute;
+        display: block;
+        right: 40px;
+        bottom: 100px;
+    }
+
+    /* Xử lý phần trang liên hệ */
+    div.itemContact {
+        padding-top: 10px;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .contact-icon {
+        margin-left: 20px;
+    }
+
+    .contact-icon i {
+        font-size: 2rem;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        margin-left: 20px;
+    }
+
+    .contact-info h3,
+    .contact-info h3 > span {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .contact-info > span {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    /* Xử lý phần tin tức */
+    #news .container {
+        margin-right: 10px;
+    }
+
+    .news-items a > h3 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 700;
+        color: var(--nav-color);
+    }
+
+    .news-items > p {
+        overflow: hidden;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .news-items {
+        padding: 0 20px 10px;
+    }
+
+    .news-items::after {
+        height: 130px;
+    }
+
+
+    /* Xử lý trang chi tiết */
+    #TripInfo .container {
+        margin-right: 0;
+    }
+
+    #TripInfo {
+        top: 20px;
+    }
+
+    .TripInfo-row {
+        display: block;
+    }
+
+    #TripInfo .TripInfo-info {
+        display: block;
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .column-6 {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .TripInfo-col4 {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    .TripInfo-price {
+        padding: 5px 0;
+    }
+
+    .TripInfo-PlaceAndDay {
+        margin: 0 20px;
+    }
+
+    .TripInfo-Place,
+    .TripInfo-Day {
+        padding: 5px 0 10px;
+    }
+
+    .TripInfo-btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .TripInfo-btn input.btn {
+        padding: 10px 20px;
+        font-size: 1.6rem;
+    }
+
+    .TripInfo-img-items img {
+        height: 70px;
+    }
+
+    div.time table tbody tr td,
+    div.time table thead th {
+        font-size: 1rem;
+    }
+
+    div.time table tbody .btn {
+        padding: 10px;
+    }
+
+    .TripInfo-col4 div ul li {
+        margin: 0;
+    }
+
+    .TripInfo-col4 div ul li i {
+        padding-left: 10px;
+    }
+
+    .Phone-number i, 
+    .Phone-number span {
+        font-size: 1.8rem;
+    }
+
+    div.PS ul {
+        padding-left: 20px;
+    }
+
+    .TripInfo-content span,
+    .TripInfo-content i {
+        font-size: 1.6rem;
+    }
+
+
+    /* Xử lý phần giỏ hàng */
+    #information .row-information {
+        display: block;
+        margin: 0;
+    }
+
+    #information .container {
+        margin-right: 10px;
+    }
+
+    #information .col30 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #information div.col-70 {
+        width: 100%;
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    .Info-trip-items {
+        display: block;
+    }
+
+    #information .Item-img {
+        display: none;
+    }
+
+    #information .Item-infoTrip {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #information .Item-infoTrip h3 {
+        font-size: 1.6rem;
+    }
+
+    div.form-title h2,
+    div.form-title i {
+        font-size: 1.6rem;
+    }
+
+    div.total span {
+        font-size: 2rem;
+        padding: 0;
+        margin: 10px;
+    }
+
+    div.total > span > span {
+        margin: 0 10px;
+    }
+
+    div.total > span {
+        display: flex;
+    }
+
+    form > div.formInfo input {
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+
+    form > div.formInfo label {
+        font-size: 1.4rem;
+    }
+
+    div.Info-trip > div.content {
+        padding-left: 10px;
+    }
+
+    div.Info-trip > div.content i,
+    div.Info-trip > div.content span {
+        font-size: 1.6rem;
+    }
+
+    .numberOfPeople-item span.total-item {
+        margin-left: 5px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 358px) {
+    .btn {
+        padding: 10px 10px !important;
+    }
+
+    .nar-bar-btn {
+        padding: 20px !important;
+        display: block;
+        margin: auto 0 auto 90% !important;
+    }
+
+    .row {
+        margin: 0 !important;
+    }
+    /* Xử lý phần trượt */
+    a#GoToTop {
+        padding: 15px 10px;
+    }
+    
+    a#GoToTop i {
+        font-size: 1.6rem;
+    }
+
+    /* Phần xử lý nav top */
+    div.container {
+        margin-left: 10px;
+    }
+
+    .container1 {
+        margin: 0 20px !important;
+    }
+
+    ul.nav-top__social,
+    div.column {
+        display: block;
+    }
+
+    ul.nav-top__social-mob {
+        display: flex;
+    }
+
+    ul.nav-top__social > li p,
+    ul.nav-top__social > li a {
+        display: block;
+        font-size: 1.4rem;
+        padding: 0;
+    }
+
+    /* Kết thúc nav top */
+
+    /* Phần mạng xã hội */
+    .ads > li > a > i {
+        font-size: 1.8rem;
+        padding: 10px 10px;
+    }
+    /* Kết thúc phần mạng xã hội */
+
+    .nar-bar-btn {
+        display: block;
+        padding: 10px;
+    }
+
+    div.col-10 > img {
+        display: none;
+    }
+
+    .nav-Bar-items {
+        display: none;
+    }
+
+   
+
+    .nar-bar-btn {
+        padding: 20px;
+        display: block;
+        margin: auto 0 auto 95%;
+    }
+
+    div.col-10  {
+        margin: 0;
+    }
+
+    .col-90 {
+        display: none;
+    }
+
+    .nav-overlay {
+        z-index: 99999;
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .col-90-tablet {
+        display: block;
+        z-index: 999999;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 270px;
+        max-width: 100%;
+        background-color: rgb(160, 156, 156);
+        transform: translateX(100%);
+        transition: transform linear 0.2s;
+    }
+
+    .nav-Bar-items-tablet {
+        padding-top: 50px;
+    }
+
+    .nav-Bar-items-tablet > li {
+        display: block;
+        padding: 10px 0 10px 30px ;
+    }
+
+    .nav-Bar-items-tablet > li > a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--nav-color);
+    }
+
+    /* Xử lý phần menu con trong menu */
+    .travel-tablet,
+    .hotel-tablet {
+        display: none;
+    }
+
+    .hotel-tablet > .hotel-items-tablet,
+    .travel-items-tablet {
+        margin-left: 30px;
+    }
+
+    .hotel-items-tablet > ul > li,
+    .travel-items-tablet > ul > li {
+        margin-top: 10px;
+        padding: 5px 0;
+    }
+
+    .travel-items-tablet > ul > li > a,
+    .hotel-items-tablet > ul > li > a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--nav-color);
+    }
+
+    .travel-items-tablet > ul > li > a:hover,
+    .hotel-items-tablet > ul > li > a:hover {
+        color: white;
+    }
+
+    .nav-Bar-items-tablet > li a:hover {
+        color: white;
+    }
+
+    li.travel-main-tablet:hover div.travel-tablet,
+    li.hotel-main-tablet:hover div.hotel-tablet {
+        display: block;
+    }
+
+    .footer-product > div.price {
+        font-size: 1.4rem;
+        padding: 12px;
+    }
+
+    .info-SanPham > a > p {
+        margin: 20px 0 10px 0;
+        color: var(--text-color);
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-weight: 600;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    /* Xử lý icon */
+    .btnDelete-icon {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .btnDelete-icon i {
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    /* Xử lý ẩn hiện */
+    .check__input:checked ~ .nav-overlay {
+        display: block;
+    }
+
+    .check__input:checked ~ .col-90-tablet {
+        transform: translateX(0%);
+    }
+
+    .Tour-items {
+        display: none;
+    }
+
+    /* Xử lý phần sản phẩm */
+
+    .row-SanPhamHot > div.col-30 {
+        width: 100%;
+        margin: 20px 20px;
+    }
+
+    .location i,
+    .location span,
+    .startDay i,
+    .startDay span {
+        font-size: 1.6rem;
+        padding: 5px 0;
+        font-weight: 400;
+    }
+
+    .footer-product {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        background-color: rgb(187, 186, 186);
+    }
+
+    /*Xử lí Phần cảm ơn */
+    .title-tablet span {
+        font-size: 1.6rem;
+        padding-top: 10px;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+
+    .title-tablet h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin: 10px 0;
+    }
+
+    .introduce-company {
+        margin: 40px 0;
+    }
+
+    .subject {
+        display: block;
+        padding: 20px 0;
+    }
+
+    .stats-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 40px 0;
+    }
+
+    .stats {
+        text-align: center;
+    }
+
+    .stats i{
+        font-size: 3rem;
+    }
+
+    .stats span {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .stats h3 {
+        font-size: 2rem;
+    }
+
+    .fa-calendar {
+        color: green;
+    }
+
+    .fa-user {
+        color: red;
+    }
+
+    .fa-route {
+        color: blue;
+    }
+
+
+
+
+/* Xử lý phần footer */
+    #footer {
+        padding-bottom: 300px !important;
+        height: 100%;
+    } 
+
+    #footer > div.container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row-footer {
+        display: block;
+        margin: 0 20px !important;
+    }
+
+    .col-40 img {
+        display: none;
+    }
+
+    .col-20 {
+        width: 100%;
+    }
+
+    .googlemap iframe {
+        height: 180px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .googlemap {
+        position: absolute;
+        display: block;
+        right: 40px;
+        bottom: 100px;
+    }
+
+    /* Xử lý phần trang liên hệ */
+    div.itemContact {
+        padding-top: 10px;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .contact-icon {
+        margin-left: 20px;
+    }
+
+    .contact-icon i {
+        font-size: 2rem;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        margin-left: 30px;
+    }
+
+    .contact-info h3,
+    .contact-info h3 > span {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .contact-info h3 > a {
+        font-size: 1rem;
+    }
+
+    .contact-info > span {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    /* Xử lý trang chi tiết */
+    #TripInfo .container {
+        margin-right: 0;
+    }
+
+    #TripInfo {
+        top: 20px;
+    }
+
+    .TripInfo-row {
+        display: block;
+    }
+
+    #TripInfo .TripInfo-info {
+        display: block;
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .column-6 {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .TripInfo-col4 {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    .TripInfo-price {
+        padding: 5px 0;
+    }
+
+    .TripInfo-PlaceAndDay {
+        margin: 0 20px;
+    }
+
+    .TripInfo-Place,
+    .TripInfo-Day {
+        padding: 5px 0 10px;
+    }
+
+    .TripInfo-btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .TripInfo-btn input.btn {
+        padding: 10px 20px;
+        font-size: 1.6rem;
+    }
+
+    .TripInfo-img-items img {
+        height: 70px;
+    }
+
+    div.time table tbody tr td,
+    div.time table thead th {
+        font-size: 1rem;
+    }
+
+    div.time table tbody .btn {
+        padding: 10px;
+    }
+
+    .TripInfo-col4 div ul li {
+        margin: 0;
+    }
+
+    .TripInfo-col4 div ul li i {
+        padding-left: 10px;
+    }
+
+    .Phone-number i, 
+    .Phone-number span {
+        font-size: 1.8rem;
+    }
+
+    div.PS ul {
+        padding-left: 20px;
+    }
+
+    .TripInfo-content span,
+    .TripInfo-content i {
+        font-size: 1.6rem;
+    }
+
+
+    /* xử lý giỏ hàng */
+    #information .row-information {
+        display: block;
+        margin: 0;
+    }
+
+    #information .container {
+        margin-right: 10px;
+    }
+
+    #information .col30 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #information div.col-70 {
+        width: 100%;
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    .Info-trip-items {
+        display: block;
+    }
+
+    #information .Item-img {
+        display: none;
+    }
+
+    #information .Item-infoTrip {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #information .Item-infoTrip h3 {
+        font-size: 1.6rem;
+    }
+
+    div.form-title h2,
+    div.form-title i {
+        font-size: 1.6rem;
+    }
+
+    div.total span {
+        font-size: 2rem;
+        padding: 0;
+        margin: 10px;
+    }
+
+    div.total > span > span {
+        margin: 0 10px;
+    }
+
+    div.total > span {
+        display: flex;
+    }
+
+    form > div.formInfo input {
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+
+    form > div.formInfo label {
+        font-size: 1.4rem;
+    }
+
+    div.Info-trip > div.content {
+        padding-left: 10px;
+    }
+
+    div.Info-trip > div.content i,
+    div.Info-trip > div.content span {
+        font-size: 1.6rem;
+    }
+
+    .numberOfPeople-item span.total-item {
+        margin-left: 5px;
+    }
+
+}

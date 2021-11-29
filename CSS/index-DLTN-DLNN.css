@@ -1,0 +1,40 @@
+#DLNN {
+    background-color: #f3ecec !important;
+}
+
+#Travel-NuocNgoai {
+    background-color: #fdfafa !important;
+    padding-bottom: 50px;
+}
+
+.container2 {
+    margin: 30px 200px 0;
+}
+
+.imgTop {
+    position: relative;
+}
+
+.imgTop img {
+    width: 100%;
+}
+
+.numberPage {
+   
+    display: block;
+    margin: 50px auto;
+    width: 20px;
+    height: 20px;
+}
+
+.numberPage a {
+    position: relative;
+    display: block;
+    background-color: grey;
+    border: 2px solid gray;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
