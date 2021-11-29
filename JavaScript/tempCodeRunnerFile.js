@@ -1,1 +1,0 @@
-    var id = params.id;
